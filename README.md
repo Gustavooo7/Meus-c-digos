@@ -10,7 +10,7 @@ Python é interpretada e pode ser usada de forma estruturada, orientada a objeto
 # Onde é usado
 Python é uma das linguagens mais populares do mundo e pode ser usada em várias áreas, como:
 
-- Desenvolvimento Web   
+- Desenvolvimento Web  
 - Inteligência Artificial e Dados  
 - Automação de Tarefas 
 - Jogos e Aplicativos
