@@ -50,7 +50,7 @@ O "Print()" pode mostar textos, números e variáveis
 Input: (receber dados)
 Para receber dados, usamos "Input()":
 ex: Bala_fav = input("Digite sua bala favorita")
-    print(f"Eu sabia que seria a {Bala_fav}
+    print(f"Eu sabia que seria {Bala_fav}!")
 
 
 # Primeiro programa:
