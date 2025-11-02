@@ -53,5 +53,5 @@ ex: Bala_fav = input("Digite sua bala favorita")
     print(f"Eu sabia que seria a {Bala_fav}
 
 
-#Primeiro programa:
+# Primeiro programa:
 Print("I love you").
