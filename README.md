@@ -28,12 +28,12 @@ A partir daí, você já pode criar arquivos .py
 Variaveis são usadas para guardar informações na memoria do pc, funcionam como se fossem "caixas" para você guardar algum valor que desejar usar depois.
 ex: nome = gustavo
     idade = 21
-    lsd_fav = flypig
+    altura = 2.00
 
 # Tipos de dados
 int -- Números inteiros  ex:10,-5,0
 float -- Números deciemais  ex:3.14,-2.43
-string -- Textos entre aspas ex: "gostei da rave"
+string -- Textos entre aspas ex: "eu te amo"
 bool -- Valores lógicos(verdadeiro ou falso) True, False
 
 Para facilitar, podemos ver qual é o tipo de uma variável usando type()
@@ -43,14 +43,14 @@ print(type(idade)) # int
 #Input e output básico
 Output:(sáida de dados)
 para exibir alguma coisa na tela, usamos a função "print()"
-ex: print("trampsta meu amooor")
+ex: print("eu te amo")
 O "Print()" pode mostar textos, números e variáveis
 
 
 Input: (receber dados)
 Para receber dados, usamos "Input()":
-ex: Bala_fav = input("Digite sua bala favorita")
-    print(f"Eu sabia que seria {Bala_fav}!")
+ex: Time_do_coracao = input("Digite seu time do coração: ")
+    print(f"Eu sabia que seria o {Time_do)coracao}!")
 
 
 # Primeiro programa:
