@@ -55,3 +55,55 @@ ex: Time_do_coracao = input("Digite seu time do coração: ")
 
 # Primeiro programa:
 Print("I love you").
+
+# *Primeira calculadora de IMC:*
+
+altura = float(input("Digite sua altura: "))
+peso = float(input("Digite seu peso: "))
+imc = peso / (altura ** 2)
+if imc < 18.5:
+    print(f"Você está abaixo do peso e seu IMC é {imc:.2f}.")
+elif imc >= 18.5 and imc <= 24.9:
+    print(f"Seu IMC é: {imc:.2f} e você está com peso normal.")
+elif imc >= 25 and imc <= 29.9:
+    print(f"Seu IMC é {imc:.2f} e você está sobrepeso.")
+elif imc >= 30:
+    print(f"Seu IMC é {imc:.2f} e você está obeso.")
+
+# *Programa que recebe um número e verifica:*
+#- Se é positivo, negativo ou zero
+#- Se é par ou ímpar
+#- Se é múltiplo de 3 e/ou 5
+#- Se está entre 10 e 50 (inclusive)
+
+# *ver se é positivo, negativo ou zero.*
+n = int(input("Digite um número inteiro:"))
+if n > 0:
+    print(f"{n} é um número positivo.")
+elif n < 0:
+    print(f"{n} é um número negativo")
+else:
+    print("Seu número é zero.")
+
+#ver se é par ou impar
+if n % 2 == 0:
+    print(f"{n} é um número par.")
+else:
+    print(f"{n} é um número ímpar")
+
+#ver se é multiplo de 3 e/ou 5
+if (n % 3 ==0) and (n % 5 ==0):
+    print(f"O número {n} é divisivel por 3 e 5. ")
+elif (n % 3 ==0) and (n % 5 !=0):
+    print(f"O número {n} é divisivel apenas por 3.")
+elif (n % 3 !=0) and (n % 5 ==0):
+    print(f"O número {n} é divisivel apenas por 5.")
+else:
+    print(f"O número {n} não é divisivel nem por 3, nem por 5.")
+
+#verificar se está entre 10 e 50
+if n >= 10 and n <= 50:
+    print(f"O número {n} está entre 10 e 50.")
+else:
+    print(f"O número não está entre 10 e 50.")
+
