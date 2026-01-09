@@ -107,3 +107,39 @@ if n >= 10 and n <= 50:
 else:
     print(f"O número não está entre 10 e 50.")
 
+#Programa que:
+#1. Pede um número N
+#2. Mostra todos os números de 1 até N
+#3. Para cada número, diz se é par ou ímpar
+#4. No final, mostra:
+   #- Quantos pares
+   #- Quantos ímpares
+   #- Soma total
+
+impar = 0
+par = 0
+soma = 0
+n = int(input("Digite um número: "))
+for c in range(1, n+1):
+    print(c)
+    if c % 2 == 0:
+        par = par+1
+        print("Par")
+        
+    
+    else:
+        impar = impar +1
+        print("Impar")
+
+    soma = soma + c
+    
+
+
+
+    
+
+print(f"Números pares: {par}")
+print(f"Números ímpares: {impar}")
+print(f"Soma do total dos pares e ímpares: {soma}")
+
+
